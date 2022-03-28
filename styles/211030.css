@@ -1,0 +1,72 @@
+/*
+Styles de la page propriétés CSS avec tableau
+*/
+/* 
+    Created on : 30-oct.-2021, 0:38:45
+    Author     : métier
+*/
+body{
+    font-family: "Opens Sans", sans-serif;
+    font-size: 1em;
+    background-color: #C5EFFF;
+}
+table{
+    width : 100%;
+    border-collapse: collapse;
+}
+th, td {
+    width: 32%;   
+    border: 1px #a8a8eb solid;
+}
+th {
+    background-color: #C6F0FF;
+}
+tr:nth-child(even){background-color: #d5ffc7;}
+
+tr:hover {background-color: #9fff80;}
+
+
+
+h2, h3, h4{
+    font-family: Merriweather, serif;   
+}
+h2{
+    color : #a8a8eb;
+    font-size: 1.7em;   
+}
+h3{
+    color : #FFB64C;
+    font-size: 1.5em;    
+    padding-top: 1em;
+}
+h4{
+    color : #FA899B;
+    font-size: 1.3em;
+    margin: 0.7em;
+}
+article > h2, article > h3, article > h4{
+    text-align: center;
+}
+article{
+    background-color:#E2F6FD;
+    box-shadow: 7px 7px 7px teal; /*(horizontale, verticale, fondu, couleur) */
+}
+
+body >  header > nav li a.active {
+    background-color: #a8a8eb;
+}
+body >  header > nav li a:hover:not(.active) {
+    background-color: #ffd699;
+}
+/*
+Palette pastel : https://merehead.com/blog/wp-content/uploads/Colorful-minimalism.jpg
+parme : #A8C8EF; #93B5E3; #A8C4EB; a8a8eb
+rose : #FA899B;
+orange : #FFB64C;
+bleu clair : #C6F0FF;
+bleu moyen : #76BBE4;
+
+105 	#d5ffc7	rgb(213, 255, 199)	hsl(105, 100%, 89%)
+120 	#c7ffc7	rgb(199, 255, 199)	hsl(120, 100%, 89%)
+135 	#c7ffd5
+*/

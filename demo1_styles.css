@@ -1,0 +1,14 @@
+p {
+    font-size : 18px;
+    font-weight: 900;
+}
+
+/* 
+sélécteur pair et impaire : even & odd
+https://www.w3schools.com/cssref/sel_nth-child.asp 
+https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_nth-child_odd_even 
+*/ 
+p:nth-child(odd) {
+  color: blue;
+}
+

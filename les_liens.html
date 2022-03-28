@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+        <title>Les liens en HTML</title>
+        <meta name="description" content="Les balises de listes en HTML">
+        <meta name="keywords" content="web, html, ol, ul, li">
+        <meta name="author" content="INani">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Les liens en HTML</h1>
+
+        <h2>Comment faire un lien hypertexte en HTML?</h2>
+
+        <h3>Lien dans une page - ancre</h3>
+        <h4 id="ancre">Début du paragraphe</h4>
+        <p>
+            Long paragraphe : Raptim igitur properantes ut motus sui rumores celeritate nimia praevenirent, vigore corporum ac levitate confisi per flexuosas semitas ad summitates collium tardius evadebant. et cum superatis difficultatibus arduis ad supercilia venissent fluvii Melanis alti et verticosi, qui pro muro tuetur accolas circumfusus, augente nocte adulta terrorem quievere paulisper lucem opperientes. arbitrabantur enim nullo inpediente transgressi inopino adcursu adposita quaeque vastare, sed in cassum labores pertulere gravissimos.
+
+            Quare hoc quidem praeceptum, cuiuscumque est, ad tollendam amicitiam valet; illud potius praecipiendum fuit, ut eam diligentiam adhiberemus in amicitiis comparandis, ut ne quando amare inciperemus eum, quem aliquando odisse possemus. Quin etiam si minus felices in diligendo fuissemus, ferendum id Scipio potius quam inimicitiarum tempus cogitandum putabat.
+
+            Advenit post multos Scudilo Scutariorum tribunus velamento subagrestis ingenii persuasionis opifex callidus. qui eum adulabili sermone seriis admixto solus omnium proficisci pellexit vultu adsimulato saepius replicando quod flagrantibus votis eum videre frater cuperet patruelis, siquid per inprudentiam gestum est remissurus ut mitis et clemens, participemque eum suae maiestatis adscisceret, futurum laborum quoque socium, quos Arctoae provinciae diu fessae poscebant.
+
+            Cumque pertinacius ut legum gnarus accusatorem flagitaret atque sollemnia, doctus id Caesar libertatemque superbiam ratus tamquam obtrectatorem audacem excarnificari praecepit, qui ita evisceratus ut cruciatibus membra deessent, inplorans caelo iustitiam, torvum renidens fundato pectore mansit inmobilis nec se incusare nec quemquam alium passus et tandem nec confessus nec confutatus cum abiecto consorte poenali est morte multatus. et ducebatur intrepidus temporum iniquitati insultans, imitatus Zenonem illum veterem Stoicum qui ut mentiretur quaedam laceratus diutius, avulsam sedibus linguam suam cum cruento sputamine in oculos interrogantis Cyprii regis inpegit.
+
+            Paphius quin etiam et Cornelius senatores, ambo venenorum artibus pravis se polluisse confessi, eodem pronuntiante Maximino sunt interfecti. pari sorte etiam procurator monetae extinctus est. Sericum enim et Asbolium supra dictos, quoniam cum hortaretur passim nominare, quos vellent, adiecta religione firmarat, nullum igni vel ferro se puniri iussurum, plumbi validis ictibus interemit. et post hoe flammis Campensem aruspicem dedit, in negotio eius nullo sacramento constrictus.
+
+            Eo adducta re per Isauriam, rege Persarum bellis finitimis inligato repellenteque a conlimitiis suis ferocissimas gentes, quae mente quadam versabili hostiliter eum saepe incessunt et in nos arma moventem aliquotiens iuvant, Nohodares quidam nomine e numero optimatum, incursare Mesopotamiam quotiens copia dederit ordinatus, explorabat nostra sollicite, si repperisset usquam locum vi subita perrupturus.
+
+            Ciliciam vero, quae Cydno amni exultat, Tarsus nobilitat, urbs perspicabilis hanc condidisse Perseus memoratur, Iovis filius et Danaes, vel certe ex Aethiopia profectus Sandan quidam nomine vir opulentus et nobilis et Anazarbus auctoris vocabulum referens, et Mopsuestia vatis illius domicilium Mopsi, quem a conmilitio Argonautarum cum aureo vellere direpto redirent, errore abstractum delatumque ad Africae litus mors repentina consumpsit, et ex eo cespite punico tecti manes eius heroici dolorum varietati medentur plerumque sospitales. 
+            <a href="#ancre">lien vers le début du paragraphe</a>
+
+        </p>
+
+        <h3>Lien vers une autre page</h3>
+        <a href="page2.html" title="Une autre page">Lien vers une autre page</a>
+
+        <h3>URL relative</h3>
+        <h4>Exemple un lien sur une image du site WEB</h4>
+        <p>
+            Cliquez sur l'image pour afficher l'originale : 
+            <a href="images/d3ecn4v-52d665d5-6e84-47e8-b775-ac40c8bb47df.gif" title="Run by NAVIO TANTRA sur https://www.deviantart.com/navio-tantra/art/RUN-205503007">
+                <img src="images/running_robot.gif" alt="Robot animé miniature" height="80" width="80">
+            </a>
+        </p>
+        <h4>L'importance du texte alternatif dans la balise image</h4>
+        <p style='color:red;'>
+            Si le nom du fichier est incorecte, ou le chemin, erroné, incomplet, seul l'alternative texte s'affichera.
+            <br>
+            Notez que l'attribut ALT est obligatoire pour des raisons d'accessibilité : 
+            <!-- observez attetnivelment le nom du fichier undescore ou tiret ?  -->
+            <img src="images/running_robot_inv.gif" alt="Texte alternatif : 'Robot animé miniature'" height="80" width="80">
+            <br>
+            <img src="images/running_robot-inv.gif" alt="Robot animé miniature" height="50" width="50">
+        </p>
+
+        <h3>URL absolue</h3>
+        <p>
+            Les développeurs de site web ont pris l’habitude d’utiliser du <a href="https://fr.lipsum.com" title="Générateur de Lorem Ipsum" target="_blank">faux-texte</a> lors de la construction de la structure du site.
+        </p>
+
+        <p><i>Curieux d'en apprendre plus : <a href="https://www.w3schools.com/html/html_links.asp" target='_blank' title="W3Schools : site d'apprentissage et de formation respectant les standards du web">W3Schools</a></i></p>
+
+        <h3>Lien avec attribut <i>download</i></h3>
+        <h4>Exemple : Lien vers un document PDF</h4>
+        <a href="html_balises-1.pdf">Lien vers le fichier PDF</a>
+        <br>
+        <a href="html_balises-2.pdf" download>Téléchargez le fichier PDF</a>
+
+        <h4>Exemple : Lien vers un document WORD</h4>
+        <a href="html_balises.docx">Lien vers le fichier WORD</a>
+        <br>
+        <a href="html_balises.docx" download>Téléchargez le fichier WORD</a>
+
+        <h2>Application pratique</h2>
+        <p>Veuillez réaliser un menu de navigation entre 2 pages html</p>
+        <nav>                                                                   <!-- style="display:none;"-->
+            <a href="1.html">page 1</a>
+            <a href="2.html">page 2</a>
+        </nav>
+    </body>	
+</html>
+
+

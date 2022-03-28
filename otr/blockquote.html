@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>html quotations</title>
+        <style>
+            body {
+                margin : auto auto;
+                padding : 5em;
+                /*width : 90%;*/
+                font-family : Arial, Helvetica, sans-serif;
+                font-size : .75em;
+
+            }
+            code {
+                font-family : Monaco, "Lucida Console", "Courier New", monospace;
+                background-color: lightcyan;
+                border : 2px cadetblue inset;
+                padding : 1em;
+                margin-right: 1em;
+                line-height: 4em;
+            }
+            .rendu {
+                border-left : .4em groove lightgreen;
+                padding : 1em;
+                margin-right: 1em;
+            }
+            .tips {
+                font: italic 12px/30px Georgia, serif;
+                color : deeppink;
+            }
+            #dys {
+                font-family : papyrus, fantasy;
+                font-size : 2em;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Les citations en HTML</h1>
+        <h2>Ajouter des guillemets [quote] autour d'un mot</h2>
+        <code>I am so &lt;q&gt;cool&lt;/q&gt;.</code>
+        <p class="rendu"> I am so <q>cool</q>. </p>  
+
+        <h2>Citer une source</h2>
+        <code>&lt;blockquote cite="http://www.worldwildlife.org/who/index.html">For 50 years, WWF has been protecting ...&lt;/blockquote>
+        </code><blockquote cite="http://www.worldwildlife.org/who/index.html" class="rendu">For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</blockquote>
+
+
+        <h2>Direction du texte</h2>
+        <code>
+            &lt;bdo dir="rtl">
+            Bienvenue dans le monde des gauchers dyslexiques  
+            &lt;/bdo>
+        </code>
+
+        <p class="rendu">
+            <bdo dir="rtl" id="dys">
+                Bienvenue dans le monde des gauchers dyslexiques  
+            </bdo>
+        </p>
+
+        <blockquote cite="https://developer.mozilla.org/fr/docs/Web/HTML/Element/bdo">L'élément HTML &lt;bdo&gt; (pour élément de remplacement du texte bidirectionnel) est utilisé afin d'outrepasser la direction du texte. Cela permet d'imposer une direction donnée à un texte. L'orientation du texte est inversée mais pas celle des caractères. </blockquote>
+
+        <h2>Accronyme - Abbréviation</h2> 
+        <code>
+            &lt;abbr title="World Wide Web">WWW&lt;/abbr>
+        </code>
+
+        <p class="rendu">
+         <abbr title="World Wide Web">WWW</abbr>         
+        </p>
+        <span class="tips">Tips: mouse hover to see the result</span>
+       
+
+        <blockquote cite="https://en.wikipedia.org/wiki/World_Wide_Web">commonly known as the <mark>Web</mark>, is an information system where documents and other web resources are identified by Uniform Resource Locators (URLs, such as https://example.com/), which may be interlinked by hyperlinks, and are accessible over the Internet. The resources of the Web are transferred via the Hypertext Transfer Protocol (HTTP), may be accessed by users by a software application called a web browser, and are published by a software application called a web server. The World Wide Web is not synonymous with the Internet, which pre-dated the Web in some form by over two decades and upon the technologies of which the Web is built.</blockquote>
+
+
+
+        <p>
+        <blockquote cite="hhttps://fr.wikipedia.org/wiki/World_Wide_Web">
+            Le World Wide Web [ˌwɝld waɪd ˈwɛb]a (littéralement la « toile (d’araignée) mondiale », abrégé www ou le Web), la toile mondiale ou la toile, est un système hypertexte public fonctionnant sur Internet. Le Web permet de consulter, avec un navigateur, des pages accessibles sur des sites. L’image de la toile d’araignée vient des hyperliens qui lient les pages web entre elles.
+            <br>
+            <mark>Le Web n’est qu’une des applications d’Internet</mark>, distincte d’autres applications comme le courrier électronique, la visioconférence et le partage de fichiers en pair à pair. Inventé en 1989-1990 par Tim Berners-Lee suivi de Robert Cailliau, c'est le Web qui a rendu les médias grand public attentifs à Internet. Depuis, le Web est fréquemment confondu avec Internet3 ; en particulier, le mot Toile est souvent utilisé dans les textes non techniques sans qu'il soit clair si l'auteur désigne le Web ou Internet.
+        </blockquote>
+        <p>
+
+        <h2>Keyboard input</h2>
+
+        <p>The HTML &lt;kbd&gt; element is used to define keyboard input. The content inside is displayed in the browser's default monospace font.</p>
+        <p class="rendu">Save the document by pressing <kbd>Ctrl + S</kbd></p>
+
+
+    </body>
+</html>

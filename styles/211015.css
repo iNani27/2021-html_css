@@ -1,0 +1,141 @@
+body{
+    width: 99%;
+    /* background: rgb(222,184,135);
+     background: linear-gradient(347deg, rgba(222,184,135,0.9979342078628326) 0%, rgba(255,255,255,1) 10%);       /* https://cssgradient.io/  */
+}
+
+header h2{
+    text-align : center;
+    font-size: xx-large;
+}
+
+article{
+    width: 77%; 
+    padding: 20px 17px 90px 20px; 
+    margin : auto auto;
+    border-top: 1px outset teal; 
+    border-right: 2px outset aqua; 
+    border-bottom: 2px outset aqua;                
+    border-left: 1px outset teal; 
+    border-radius : 0 0 25px 0;
+}
+
+div{
+    width: 47%; 
+    border: 1px outset navy; 
+    padding: 20px 17px 30px 20px; 
+    font-family: monospace;
+    font-size: 14px;
+    background-color: #14141F; 
+    color : AliceBlue;
+    /* clear : both;*/
+}
+
+aside{
+    width: 42%; 
+    border: 1px outset orange; 
+    padding: 20px 17px 30px 20px; 
+    float: right;
+}
+
+aside#wysiwyg{
+    padding: 0px 17px 0px 20px; 
+
+}
+
+aside#wysiwyg > h1{
+    font-size: 27px;
+}
+
+aside#wysiwyg > h1, h2, h3, h4, h5, h6{
+    margin : 20px auto;
+}
+
+table, tr, th, td{
+    border: 1px solid black;
+}
+th, td{
+    padding : 5px;
+}
+
+code{
+    color : DodgerBlue; 		
+    font-weight: 700;
+}
+code.attr{
+    color: #FF69B4; 
+    font-weight: 500;
+}
+code.val{
+    color : #ffa;                              
+    font-weight: 200;
+}
+
+
+.green{
+    color : lightgreen;
+}
+
+.hidden{
+    display: none;
+}
+
+/* Effet CSS au survol */
+div:hover {
+    background-color: AliceBlue;
+    color :#14141F; 
+}
+div:hover code.val{
+    color : grey;    
+}
+div:hover .green{
+    color : green;
+}
+
+
+/* 
+BurlyWood / wheat _ wheat / LemonChiffon 
+
+BurlyWood    #DEB887 
+wheat         #F5DEB3
+LemonChiffon    #FFFACD        
+*/
+
+footer{
+    font-family: papyrus, Fantasy;
+    font-size: smaller;
+    /*color: wheat;*/
+    text-align: center;
+    margin-top: 72px;
+}
+
+
+/* Styles pour impression */
+@media print {
+    body{
+        color: darkgray;
+        width: 99%; 
+        /* font-size: 24px;*/
+    }   
+    aside#wysiwyg > h1{
+        font-size: 27px;
+    }
+    section{
+        margin-top: 25px;
+        padding-bottom: 25px;
+    }
+    article{
+        width: 90%; 
+        padding: 0px 0px 0px 0px; 
+        margin : auto auto;
+        border-top: 0px solid transparent; 
+        border-right: 0px solid transparent; 
+        border-bottom: 0px solid transparent;                 
+        border-left: 0px solid transparent;  
+        border-radius : 0 0 0px 0;
+    }
+    body >  header > nav {
+        display: none;
+    }
+}
+

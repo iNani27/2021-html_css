@@ -1,0 +1,126 @@
+/*
+Styles de la page propriétés CSS avec tableau
+*/
+/* 
+    Created on : 30-oct.-2021, 0:38:45
+    Author     : métier
+*/
+body{
+    font-family: "Opens Sans", sans-serif;
+    font-size: 1em;
+    background-color: #000F07;
+}
+table{
+    width : 100%;
+    border-collapse: collapse;
+}
+th, td {
+    width: 32%;   
+    border: 1px #DEAF6B solid;
+}
+th {background-color: #01201A; color : #DEAF6B;}
+tr:nth-child(even){background-color: #466F5F;}
+
+tr:nth-child(odd){background-color: white;}
+
+tr:hover {background-color: #DEAF6B;}
+
+h2, h3, h4{
+    font-family: Merriweather, serif;   
+}
+h2{
+    color : #DEAF6B;
+    font-size: 1.7em;   
+}
+h3{
+    color : #A56F42;
+    font-size: 1.5em;    
+    padding-top: 1em;
+}
+h4{
+    color : #693600;
+    font-size: 1.3em;
+    margin: 0.7em;
+}
+article > h2, article > h3, article > h4{
+    text-align: center;
+}
+article{
+    background-color: #09382E;
+    border-top: 1px outset #693600;
+    border-right: 2px outset #A56F42;
+    border-bottom: 2px outset #A56F42;
+    border-left: 1px outset #693600;
+    box-shadow: 1px 1px 1px white; /*(horizontale, verticale, fondu, couleur) */
+}
+
+
+section div{
+    background-color: white;
+    text-align: center;
+    border: 3px #A56F42 outset;
+    box-shadow: 2px 2px 3px #DEAF6B;
+    font-size-adjust: 0.40; 
+    float: left;
+}
+
+section div:nth-child(1){ 
+    width: 50px;
+    /* margin: 104px 0px 10px;*/
+    /*! padding: 10px 10px 30px 10px; */
+    border-radius: 0px 0px 0px 60px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    text-transform: uppercase;
+}
+
+section div:nth-child(2){ 
+    width: auto;
+    /*  margin: 104px 0;*/
+    padding: 0px 30px 70px 30px;
+    border-radius: 0px 0px 70px 70px;
+}
+
+section div:nth-child(3){
+    width: auto; /*350px;*/
+    /*   margin: 20px auto;*/
+    /*! padding: 60px 10px 60px 10px; */
+    border-radius: 0px 0px 80px 0px;
+}
+section div:nth-child(4){
+    width: 200px;
+    padding: 10px 30px 50px 0px;
+    border-radius: 0px 0px 100px 0px;
+    /*  margin-top: 0px;
+      margin-right: auto;
+      margin-bottom: 20px;
+      margin-left: auto;*/
+}
+
+
+
+body >  header > nav li a {
+    color: white;
+}
+body >  header > nav li a.active {
+    background-color: #DEAF6B;
+}
+body >  header > nav li a:hover:not(.active) {
+    background-color: white;
+    color : #DEAF6B;
+}
+
+footer{
+    color : white;
+    clear: both;
+    text-align: right;
+}
+/*
+Palette vert doré : https://www.decodambiance.com/wp-content/uploads/2021/09/couleur-tendance-salon-2022.jpg
+bleu : #000F07;#09382E;
+jaune : #A56F42;
+rouge : #693600 
+vert : #466F5F;#01201A; >< doré #DEAF6B
+
+
+*/

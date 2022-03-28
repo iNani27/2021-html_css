@@ -1,0 +1,101 @@
+Compétence HTML
+QCM
+Obligatoire
+1.Date
+Entrez la date (dd/MM/yyyy)
+2.NOM
+Entrez votre réponse
+3.Prénom
+Entrez votre réponse
+4.Quelles est la balise HTML pour indiquer le contenu de la plus grande importance ?
+(1 point)
+
+< strong>
+
+< important >
+
+< fort >
+
+< em>
+5.Le contenu de l'une de ces balises correspond au titre principal de votre page. Il est très important pour les moteurs de recherche ?
+(1 point)
+
+< title >
+
+< h1 >
+
+< meta >
+
+< head >
+6.Lequel de ces liens permet d'amener le visiteur à un endroit précis de la même page web ayant l'identifiant nommé haut_de_page?
+(1 point)
+
+< a href=".haut_de_page" >
+
+< a href="haut_de_page" >
+
+< a href="/haut_de_page" >
+
+< a href="#haut_de_page" >
+7.Quel est le rôle d'un navigateur web ?
+(1 point)
+
+Fournir votre site web à vos visiteurs
+
+Se connecter au réseau Wifi
+
+Écrire du code en HTML et CSS
+
+Traduire le code HTML et CSS en un résultat visuel
+8.Pourquoi l'attribut alt est-il obligatoire pour les images ?
+(1 point)
+
+Parce qu'il indique la taille de l'image
+
+Parce qu'il permet de conserver la compatibilité avec les vieux navigateurs
+
+Parce qu'il indique ce que contient l'image pour les non-voyants et les moteurs de recherche
+
+Cet attribut n'est pas obligatoire : seul src est requis
+9.Quel est le langage pour définir la couleur de fond du menu de navigation d'un site en gris ?
+(1 point)
+
+HTML
+
+CSS
+
+JavaScript
+
+PHP
+10.Quelles est la première balise que l'on rencontre dans un fichier HTML?
+(1 point)
+
+< html >
+
+< !-- BEGIN -- >
+
+< head >
+
+< body >
+
+< !DOCTYPE html >
+11.Quelle balise délimite une liste à puce numérotée ?
+(1 point)
+
+
+<dl>
+
+
+12.Où placer l'attribut title ? Quelle est la syntaxe correcte?
+(1 point)
+
+< a title="" > < /a href="" >
+
+< a href="" > < /a title="" >
+
+< /a herf="" title="" >
+
+< a href="" title="" >
+Ne communiquez jamais votre mot de passe.Signaler un abus
+Ce contenu est créé par le propriétaire du formulaire. Les données que vous soumettez sont envoyées au propriétaire du formulaire. Microsoft n’est pas responsable des pratiques de confidentialité ou de sécurité de ses clients, y compris celles de ce propriétaire de formulaire. Ne donnez jamais votre mot de passe.
+Avec Microsoft Forms | Confidentialité et cookies | Conditions d’utilisation | Accessibilité
